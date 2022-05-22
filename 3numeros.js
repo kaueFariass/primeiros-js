@@ -1,12 +1,18 @@
-function numeros(){
-let valor1 = parseInt(prompt("Digite um numero"));
-let valor2 = parseInt(prompt("Digite um numero"));
-let valor3 = parseInt(prompt("Digite um numero"));
-if (valor3 < valor1) and (valor1 < valor2);
-alert(valor1 + valor2);
-elif (valor2 < valor1) && (valor1 < valor3);
-alert(valor1 + valor3);
-else {
-alert(valor2 + valor3)
+function NumerosMaiores(){
+
+let V1 = parseInt(prompt("Digite um numero"));
+let V2 = parseInt(prompt("Digite um numero"));
+let V3 = parseInt(prompt("Digite um numero"));
+let resultado 
+
+if ( V3 < V1 ) && ( V1 < V2 ){
+    resultado = (valorum + valordois)
 }
+else if ( V2 < V1 ) && ( V1 < V3 ){
+    resultado = ( V1 + V3 )
+}
+else {
+    resultado = ( V2 + V3 )
+}
+alert(resultado);
 }
