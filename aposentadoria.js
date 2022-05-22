@@ -17,8 +17,7 @@ function VerificarAposentadoria(){
     
         if (tempoTrab < 30) {
         alert("O funcionário(a) " + nome + " não Requerer aposentadoria, pois tem apenas " + idade + " anos de idade e " + tempoTrab + " anos de trabalho.");
+      }
+     }
     }
-    
-}
-}
 }
