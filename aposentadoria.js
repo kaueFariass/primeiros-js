@@ -12,7 +12,8 @@ function VerificarAposentadoria(){
     
     if (idade >= 60 && tempoTrab >= 25) {
         alert("O funcionário(a) " + nome + " Requerer aposentadoria, pois tem " + idade + " anos de idade e " + tempoTrab + " anos de trabalho.")
-    } else {
+    } 
+        else {
         if (idade < 65) {
     
         if (tempoTrab < 30) {
