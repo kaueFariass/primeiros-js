@@ -14,7 +14,6 @@ h4 {
 
 input {
     color: rgb(0, 0, 0);
-    background-color: aqua;
     font-style: italic;
     font-family: 'Raleway', sans-serif;
     font-variant-caps: all-small-caps;   
@@ -25,4 +24,32 @@ label {
     font-style: italic;
     font-family: 'Raleway', sans-serif;
     font-variant-caps: all-small-caps;
+}
+
+#botao {
+    background-color: rgb(81, 200, 255);
+    border-radius: 10px;
+}
+
+#botaotemp {
+    background-color: rgb(229, 100, 255);
+    border-radius: 10px;
+
+}
+
+fieldset {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#Resultado {
+    background-color: rgb(175, 230, 255);
+}
+
+#botaoComb {
+    background-color: rgb(2, 150, 219);
+    border-radius: 10px;
 }
