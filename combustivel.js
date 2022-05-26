@@ -11,8 +11,7 @@ function CalcularCombustivel(){
     if(document.getElementById("Velocidade").value == ""){
         alert("preencha o campo Velocidade")
 } 
-    else{
         document.getElementById("Distancia").value=dist;
         document.getElementById("Combustivel").value=result;
-    }
+    
 }
