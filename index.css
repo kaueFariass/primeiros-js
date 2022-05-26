@@ -27,29 +27,36 @@ label {
 }
 
 #botao {
-    background-color: rgb(81, 200, 255);
+    background-color: rgb(2, 150, 219);
     border-radius: 10px;
 }
 
 #botaotemp {
-    background-color: rgb(229, 100, 255);
+    background-color: rgb(2, 150, 219);
     border-radius: 10px;
 
 }
 
 fieldset {
+    background-color: rgb(184, 247, 255);
+    width: 350px;
     border-color: black;
     border-width: 2px;
     border-style: solid;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
 }
 
 #Combustivel, #Distancia {
-    background-color: rgb(175, 230, 255);
+    background-color: rgb(100, 206, 255);
 }
 
 #botaoComb {
     background-color: rgb(2, 150, 219);
     border-radius: 10px;
 }
+
+#Centigrados, #Fahrenheit, #Tempo, #Velocidade, #Distancia, #Combustivel {
+    border-radius: 8px; 
+}
+ 
