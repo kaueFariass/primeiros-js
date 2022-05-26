@@ -1,5 +1,5 @@
 function media() {
-    
+
     let numero = parseFloat(0);
     let i = (0);
     let n = parseInt(0);
